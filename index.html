@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Thiru Physiotherapy Clinic | Physiotherapy in Ganapathy, Coimbatore</title>
+<meta name="description" content="Physiotherapy in Ganapathy, Coimbatore: back pain, arthritis, aquatic therapy and balance training. Open 24 hours, with home visits. Book on WhatsApp.">
+<meta name="theme-color" content="#041B22">
+<link rel="icon" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="glow" aria-hidden="true"></div>
+<i class="prog" id="prog"></i>
+
+<header class="nav" id="nav">
+  <a href="#top" class="logo">Thiru <span>Physiotherapy</span></a>
+  <nav><a href="#care">Treatments</a><a href="#way">Our way</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+  <a class="btn sm" href="#book">Book a visit</a>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-t">
+    <h1 data-split>Your body remembers how to move.</h1>
+    <p class="lead">Physiotherapy in Ganapathy, Coimbatore. In our clinic, in the water, or at your doorstep.</p>
+    <div class="cta">
+      <a class="btn wa mag" href="#" data-wa>Book on WhatsApp</a>
+      <a class="btn ghost mag" href="tel:+918608541110">Call 086085 41110</a>
+    </div>
+    <p class="meta"><i></i>Open 24 hours &nbsp;|&nbsp; <strong data-n="4.9">4.9</strong> from <strong data-n="112">112</strong> Google reviews</p>
+  </div>
+  <p class="scrl">Scroll, the spine turns with you</p>
+</section>
+
+<section class="sec" id="care">
+  <h2 class="rv">Pain has a source.<br>We go looking for it.</h2>
+  <div class="acc rv" id="acc">
+    <button class="open" aria-expanded="true" data-m="0"><span>Back and neck</span><em></em></button>
+    <div class="pn"><p>Long hours at a desk, a stiff morning, a sudden twinge. We trace the strain to its source, treat it, and show you how to keep it away.</p></div>
+    <button aria-expanded="false" data-m="1"><span>Arthritis and joints</span><em></em></button>
+    <div class="pn"><p>Knees, hips and hands that ache before the weather turns. Gentle hands-on therapy and movement that keeps joints working, not resting.</p></div>
+    <button aria-expanded="false" data-m="2"><span>Aquatic therapy</span><em></em></button>
+    <div class="pn"><p>Water carries your weight, so you can move the way land will not let you. Kind to sore joints, and stronger than it looks.</p></div>
+    <button aria-expanded="false" data-m="3"><span>Balance and mobility</span><em></em></button>
+    <div class="pn"><p>Steadier steps after an injury, or simply with age. Training that gives you back the confidence to walk without holding your breath.</p></div>
+  </div>
+</section>
+
+<section class="sec" id="way">
+  <h2 class="rv">No guesswork.<br>Here is how it goes.</h2>
+  <ol class="steps">
+    <li class="glass tilt rv"><h3>We listen</h3><p>Where it hurts, since when, and what you would like to get back to.</p></li>
+    <li class="glass tilt rv"><h3>We look closely</h3><p>How you stand, walk and move, and what is holding you back.</p></li>
+    <li class="glass tilt rv"><h3>We plan with you</h3><p>Clear goals in plain words, so you always know what comes next.</p></li>
+    <li class="glass tilt rv"><h3>You recover</h3><p>Hands-on sessions, plus a few easy exercises for home between visits.</p></li>
+  </ol>
+</section>
+
+<section class="sec">
+  <div class="home glass rv">
+    <h2>Cannot come to us?<br>We will come to you.</h2>
+    <div><p>Message your address and what is troubling you on WhatsApp. We will agree a time that suits you and bring the treatment home.</p>
+    <a class="btn wa mag" href="#" data-wa>Ask for a home visit</a></div>
+  </div>
+</section>
+
+<section class="sec pearl" id="reviews">
+  <div class="rvh rv"><b>4.9</b><div><h2>Kind words from Coimbatore.</h2><p>From 112 reviews on Google.</p></div></div>
+  <div class="revs">
+    <blockquote class="rv"><p>&ldquo;I received proper treatment protocol and now I am cure from my condition&rdquo;</p><cite>K, Google review</cite></blockquote>
+    <blockquote class="rv"><p>&ldquo;Excellent service and very friendly behavior.&rdquo;</p><cite>b, Google review</cite></blockquote>
+    <blockquote class="rv"><p>&ldquo;I had a really good experience at Thiru Physio Clinic in Coimbatore.&rdquo;</p><cite>R, Google review</cite></blockquote>
+  </div>
+</section>
+
+<section class="sec split" id="visit">
+  <div class="rv">
+    <h2>Come by, at any hour.</h2>
+    <dl>
+      <dt>Find us</dt><dd>Oppo, Hi Tech Gym, Ganapathy, opposite CMS School, Coimbatore 641006</dd>
+      <dt>Hours</dt><dd>Open 24 hours, as listed on Google Maps</dd>
+      <dt>Call</dt><dd><a href="tel:+918608541110">086085 41110</a></dd>
+    </dl>
+    <a class="btn ghost" id="map" href="#" target="_blank" rel="noopener">Open in Google Maps</a>
+  </div>
+  <form id="book" class="glass rv" novalidate>
+    <h2>Tell us what hurts.</h2>
+    <label>Your name<input name="n" autocomplete="name" required></label>
+    <label>Phone number<input name="p" type="tel" inputmode="tel" autocomplete="tel" required></label>
+    <label>What is the problem?<textarea name="m" rows="3" required></textarea></label>
+    <label>Preferred time<input name="t" placeholder="e.g. Tuesday morning"></label>
+    <button class="btn wa" type="submit">Send on WhatsApp</button>
+    <p class="err" role="alert"></p>
+  </form>
+</section>
+</main>
+
+<footer>&copy; Thiru Physiotherapy Clinic, Coimbatore. Website demo.</footer>
+<div class="bar"><a href="tel:+918608541110">Call</a><a class="g" href="#" data-wa>WhatsApp</a></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
